@@ -1,4 +1,4 @@
-# [Project Name] - SPICE Simulations
+# mt-spice - SPICE Simulations
 
 A structured repository containing SPICE circuit simulations, schematics, and design verification testbenches for our PCBAs and R&D projects that are not version controlled in Altium.
 
