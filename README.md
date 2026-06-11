@@ -23,28 +23,30 @@ The goal of this project is to simulate and optimize our A/D circuitry and other
 ├── scripts/                # Data post-processing (Python, MATLAB, etc.)
 ├── .gitignore              # Ignores heavy simulation outputs (.raw, .log)
 └── README.md               # You are here!
+```
 
-🚀 Getting Started
-1. Prerequisites
+## 🚀 Getting Started
+### 1. Prerequisites
 
 Make sure you have LTspice or TI's PSPICE installed on your machine. If you are using any external third-party models, they are bundled inside the models/ directory.
 
-2. Cloning the Repository
+### 2. Cloning the Repository
 
+```code
 bash
 git clone https://github.com/[YourUsername]/mt-spice.git
 cd mt-spice
+```
 
-3. Running a Simulation
+### 3. Running a Simulation
+Open the simulator.
 
-    Open the simulator.
+Navigate to the schematics/ folder and open [Main_Schematic_Name].asc.
 
-    Navigate to the schematics/ folder and open [Main_Schematic_Name].asc.
+Click Run (or press the running man icon).
 
-    Click Run (or press the running man icon).
+Note: Heavy waveform data (.raw) and simulation logs (.log) are ignored by Git to keep the repo lightweight, so simulations must be run locally to view waveforms.
 
-    Note: Heavy waveform data (.raw) and simulation logs (.log) are ignored by Git to keep the repo lightweight, so simulations must be run locally to view waveforms.
-
-📊 Key Results & Waveforms
+## 📊 Key Results & Waveforms
 
     TBD
