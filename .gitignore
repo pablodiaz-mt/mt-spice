@@ -1,0 +1,47 @@
+# ==========================================
+# SPICE Simulation GitIgnore
+# ==========================================
+
+# --- LTspice Outputs ---
+*.raw
+*.log
+*.fft
+*.op.doc
+*.net
+
+# --- Ngspice Outputs ---
+*.out
+*.out.txt
+*.plt
+
+# --- PSpice / OrCAD Outputs ---
+*.sim
+*.dat
+*.ind
+*.als
+*.prb
+*.msc
+*.upd
+*.XRF
+*.ERR
+*.BKP
+
+# --- HSPICE Outputs ---
+*.tr[0-9]*
+*.ac[0-9]*
+*.sw[0-9]*
+*.st[0-9]*
+*.lis
+*.pft
+*.mt[0-9]*
+
+# --- Backup and Auto-Save Files ---
+*~
+*.bak
+*.BAK
+*.rcv
+*.sav
+
+# --- OS and System Junk ---
+.DS_Store
+Thumbs.db
